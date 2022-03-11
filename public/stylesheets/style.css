@@ -1,0 +1,26 @@
+body {
+  background-color: darkkhaki;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: brown;
+}
+
+button a{
+  color: black;
+  text-decoration: none;
+}
+
+div{
+  background-color: cadetblue;
+  border: 1px black solid;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px black;
+}
+div p{
+  font-size: x-large;
+  color : black;
+}
+
+form textarea{
+  resize: none;
+}
