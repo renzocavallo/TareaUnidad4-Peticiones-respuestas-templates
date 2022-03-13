@@ -33,12 +33,8 @@ app.use(session({
 
 
 app.get('/',function(req,res){
-  var mensaje = Boolean(req.session.anotacion)
-
   res.render('index', {
-  title: 'Escribe un mensaje',
-  mensaje : mensaje,
-  nuevoMensaje: req.session.anotacion
+  title: 'Escribe un mensaje'
 })
 
 })
